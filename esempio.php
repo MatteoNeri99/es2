@@ -23,6 +23,12 @@ function cognome() {
     
 }
 
+// si usa define per creare una variabile constante anche dentro una funzione
+define('INDIRIZZO', 'Piazza Matteotti');
+
+// si usa const per creare una variabile constante ma non è possibile crearla in una funzione
+const ADDRESS = 'PIAZZA GIUBILEO';
+
 nome();
 cognome();
 echo $nome;
