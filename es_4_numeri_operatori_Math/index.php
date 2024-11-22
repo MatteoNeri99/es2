@@ -50,9 +50,9 @@ var_dump(rand(16,100));
 /*operatori di assegnazione
 
 += somma il vecchio valore con quello nuovo
-- sottrae il valore nuovo al vecchio
-* moltiplica il vecchio valore con il nuovo
-/ divide il vecchio valore con il nuovo
+-= sottrae il valore nuovo al vecchio
+*= moltiplica il vecchio valore con il nuovo
+/= divide il vecchio valore con il nuovo
 
 */
 
