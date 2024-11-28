@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- enctype (molto importante) è un valore/parametro utilizzato per l'invio dei dati al server -->
+     <!-- Il valore multipart/form-data definisce il metodo di codifica dei caratteri dei dati contenuti in un form per l'invio al server -->
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <h2>carica un file img</h2>
+        <label for="file-select">File:</label>
+        <input type="file" name="photo" id="file_select">
+        <input type="submit" name="submit" value="carica">
+        <p><strong>Nota: </strong>sono permessi solo file in formato .jpeg, .jpg, .gif, .png con una grandezza massima di 5MB</p>
+        
+    </form>
+    
+</body>
+</html>
