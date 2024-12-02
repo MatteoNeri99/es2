@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             }else{
 
                 move_uploaded_file($_FILES['photo']['tmp_name'], 'upload_img/' . $nomeFile);
-                echo 'echo il file è stato caricato con successo' .'<br>';
+                echo ' il file è stato caricato con successo' .'<br>';
                 
             }
                 
