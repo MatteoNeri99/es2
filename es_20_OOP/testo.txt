@@ -1,0 +1,34 @@
+ OOP programmazione orientata ad oggetti (è quindi un paradigma di programmazione basato sul concetto di oggetti, specifiche strutture di dati all'interno di una classe)
+
+ serve per mantenere un codice più pulito facile da leggere 
+
+esempio di OOP :
+
+(la classe è un modo per racchiudere informazioni (sotto variabile) e azioni o metodi appartenenti all'oggetto che si va a descrivere)
+
+-classe persona 
+
+    nome
+    cognome
+    eta
+    interessi
+    saluta(ciao sono nome)
+
+
+
+-sottoclasse di pesona : insegnante 
+
+    avrà tutte le cose appartenenti a persona ed in più:
+    -materia (ciò che insegna)
+    -saluta (buongiorno sono nome e cognome ed insegno materia)
+
+
+    
+
+-sottoclasse di pesona : studente
+
+    avrà tutte le cose appartenenti a persona ed in più:
+    -classe 
+    -saluta (bella sono nome e vengo dalla classe)
+
+
