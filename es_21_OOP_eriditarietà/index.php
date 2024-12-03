@@ -47,7 +47,7 @@ class Insegnante extends Persona{
     }
 
 
-    // in questa maniera vado ad recuperare il metodo cammina appartenente a Persona(se fosse stata private non avevamo modi di accedere a cammina)
+    // in questa maniera vado ad recuperare il metodo cammina appartenente a Persona(se fosse stata private non avevamo modi di accedere a)
     function prova(){
         $this-> cammina();
     }
